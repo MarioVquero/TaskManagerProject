@@ -1,0 +1,21 @@
+# Task Manager
+
+Hello there this is a project that as of writing this im still working on 
+based off of the tutorial by: [John Smilga](https://www.youtube.com/watch?v=qwfE7fSVaZM&t=196s)
+
+Considering most of this project is made using the tutorial once complete ill attempt to add more features for the sake of not following the tutorial and leaving the project.
+
+
+Changes ive made so far
+<ul>
+    <li>nothing so far just started</li>
+</ul>
+
+going to list the files I cant take credit for as well since it was given for the tutorial
+
+<ul>
+    <li>app.js</li>
+    <li>package.json</li>
+    <li>gitignore file ( will probably add on to this theres only 2 lines)</li>
+    <li>Everything in the public folder as of writing this</li>
+</ul>
