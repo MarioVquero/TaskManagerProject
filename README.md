@@ -28,5 +28,6 @@ Reminders and Notices for me
     <li>some stuff may be deprecated </li>
     <li>if some code doesnt work thats probably why </li>
     <li>left off at 1:16:32 </li>
+    <li>for more info on validations check [docs](https://mongoosejs.com/docs/validation.html) </li>
     
 </ul>

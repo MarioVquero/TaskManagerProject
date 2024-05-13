@@ -9,6 +9,8 @@ const getAllTasks = (req,res) => {
 // Creates a new task 
 // not home at the moment but once you are test this using postman
 // should return an object in postman with its unique ID, name you assigned, and completion status
+// only properites set in the Schema will be passed on to the DB
+// everything else will be ignored
 const createTask = async (req, res) => {
     const task = await Task.create(req.body)
     res.status(201).json(task)
