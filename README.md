@@ -3,6 +3,8 @@
 Hello there this is a project that as of writing this im still working on 
 based off of the tutorial by: [John Smilga](https://www.youtube.com/watch?v=qwfE7fSVaZM&t=196s)
 
+[validation docs](https://mongoosejs.com/docs/validation.html)
+
 Considering most of this project is made using the tutorial once complete ill attempt to add more features for the sake of not following the tutorial and leaving the project.
 
 
@@ -28,6 +30,6 @@ Reminders and Notices for me
     <li>some stuff may be deprecated </li>
     <li>if some code doesnt work thats probably why </li>
     <li>left off at 1:16:32 </li>
-    <li>for more info on validations check [docs](https://mongoosejs.com/docs/validation.html) </li>
+    <li>for more info on validations check the docs </li>
     
 </ul>
