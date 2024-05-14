@@ -5,6 +5,7 @@ const connectDB = require('./db/connect')
 require('dotenv').config()
 
 const notFound = require('./middleware/notfound')
+const errorHandler = require('./middleware/errorHandler')
 
 // middleware
 app.use(express.static('./public'))
@@ -15,6 +16,8 @@ app.use('/api/v1/tasks', tasks)
 
 // custom 404 response
 app.use(notFound)
+// error handling 
+app.use(errorHandler)
 
 // currently a hard coded port will probably change
 const port = 5000

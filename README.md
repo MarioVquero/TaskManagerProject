@@ -28,7 +28,7 @@ Reminders and Notices for me
 <ul>
     <li>some stuff may be deprecated </li>
     <li>if some code doesnt work thats probably why </li>
-    <li>left off at 2:19:16 </li>
+    <li>left off at 3:03:10 </li>
     <li>for more info on validations check the docs </li>
     <li>try using HTTP cats because its funny </li>
 </ul>

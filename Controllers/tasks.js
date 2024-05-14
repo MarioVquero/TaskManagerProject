@@ -3,7 +3,7 @@ const Task = require('../Models/Task')
 
 const asyncWrapper = require('../middleware/async')
 
-
+const {createCustomError} = require('../errors/customErrors')
 
 
 // as of 2:36:00 
@@ -62,8 +62,14 @@ const getTask = asyncWrapper( async (req,res) => {
     const task = await Task.findOne({_id:taskID})
         
     if(!task) {
-        // always have a return so that you odont have 2 responses
-        return res.status(404).json({msg: `No task with id: ${taskID}`})
+        // replaces the 3 lines bellow it as a custom error handler
+        return next(createCustomError(`no task with id: ${taskID}`, 404))
+
+        // const error = new Error('not found');
+        // error.status = 404;
+        // return next(error)
+        // // always have a return so that you odont have 2 responses
+        // return res.status(404).json({msg: `No task with id: ${taskID}`})
     }
     // if task found return status code 200 and return the task with matching ID
     res.status(200).json({ task })
