@@ -31,5 +31,5 @@ Reminders and Notices for me
     <li>if some code doesnt work thats probably why </li>
     <li>left off at 1:16:32 </li>
     <li>for more info on validations check the docs </li>
-    
+    <li>try using HTTP cats because its funny </li>
 </ul>
