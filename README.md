@@ -5,7 +5,7 @@ based off of the tutorial by: [John Smilga](https://www.youtube.com/watch?v=qwfE
 
 [validation docs](https://mongoosejs.com/docs/validation.html)
 
-Considering most of this project is made using the tutorial once complete ill attempt to add more features for the sake of not following the tutorial and leaving the project.
+Considering most of this project is made using the tutorial once complete ill attempt to add more features for the sake of not following the tutorial and leaving the project without adding anything.
 
 
 
