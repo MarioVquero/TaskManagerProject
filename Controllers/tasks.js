@@ -23,7 +23,15 @@ const createTask = async (req, res) => {
 
     try {
         const task = await Task.create(req.body)
-        res.status(201).json(task)
+        
+        // instead of this we can do 
+        // res.status(200).json(task)
+
+        // this which also returns the amount of tasks
+        // res.status(200).json(task,amount:tasks.length)
+
+        // or this which sets up a flag that is true if the line works
+        res.status(200).json({success : true, data:{ tasks, nbhits: tasks.length}})
 
     } catch(error) {
         // 500 is just general server error will change later to be more specific
@@ -55,6 +63,11 @@ const getTask = async (req,res) => {
         res.status(500).json({msg:error})
     }
 }
+
+// why patch instead of put? for udpate task
+// because put tries to replace the existing resource
+
+// but patch is for a partial update
 
 // Updates a task using the ID provided
 const updateTask = async (req,res) => {
