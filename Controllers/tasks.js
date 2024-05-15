@@ -3,8 +3,7 @@ const Task = require('../Models/Task')
 
 const asyncWrapper = require('../middleware/async')
 
-const {createCustomError} = require('../errors/customErrors')
-
+const { createCustomError } = require('../errors/customErrors')
 
 // as of 2:36:00 
 // creating middleware so we dont have to have constant try and catch blocks
@@ -43,7 +42,7 @@ const createTask = asyncWrapper( async (req, res) => {
     // res.status(200).json(task,amount:tasks.length)
 
     // or this which sets up a flag that is true if the line works
-    res.status(200).json({success : true, data:{ tasks, nbhits: tasks.length}})
+    res.status(200).json({success : true, data:{ task, nbhits: task.length}})
 
     
 })
