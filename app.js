@@ -19,8 +19,9 @@ app.use(notFound)
 // error handling 
 app.use(errorHandler)
 
-// currently a hard coded port will probably change
-const port = 5000
+// For the sake of deployment will need to use a given PORT value,
+// but will also default to 5000 if not given one
+const port = process.env.PORT || 5000
 
 // if server is running and upated correctly this will be posted on the console
 // NOTICE: chance theres some errors here since console connects

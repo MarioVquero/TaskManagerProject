@@ -3,15 +3,17 @@
 Hello there this is a project that as of writing this im still working on 
 based off of the tutorial by: [John Smilga](https://www.youtube.com/watch?v=qwfE7fSVaZM&t=196s)
 
-[validation docs](https://mongoosejs.com/docs/validation.html)
+Will have this saved somewhere else
+[Mongoose Docs](https://mongoosejs.com/docs/guide.html)
 
 Considering most of this project is made using the tutorial once complete ill attempt to add more features for the sake of not following the tutorial and leaving the project without adding anything.
 
 
 
-Changes ive made so far
+Changes I plan to make
 <ul>
-    <li>nothing so far just started</li>
+    <li>Adding an auth system and way login</li>
+    <li>change the style and hopefully</li>
 </ul>
 
 going to list the files I cant take credit for as well since it was given for the tutorial
@@ -26,9 +28,11 @@ going to list the files I cant take credit for as well since it was given for th
 
 Reminders and Notices for me
 <ul>
+    <li>Tutorial Complete move on to the next one</li>
     <li>some stuff may be deprecated </li>
     <li>if some code doesnt work thats probably why </li>
-    <li>left off at 3:03:10 </li>
     <li>for more info on validations check the docs </li>
     <li>try using HTTP cats because its funny </li>
+    <li>will deploy later after going over auth</li>
+    <li>Record demo for now since people wont be able to access/use site without key</li>
 </ul>
