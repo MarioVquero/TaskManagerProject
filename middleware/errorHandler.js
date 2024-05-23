@@ -1,3 +1,6 @@
+// returns the error to the user and defaults to 
+// "something went wrong, please try again"
+// if error isnt recognized
 const {customAPIError} = require ('../errors/customErrors')
 
 const errorHandler = (err, req, res, next) => {

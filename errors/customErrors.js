@@ -1,3 +1,4 @@
+// function handling custom error messages
 class customAPIError extends Error {
     constructor(message,statusCode) {
         // all messages and status codes are passed down here

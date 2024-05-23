@@ -14,7 +14,7 @@ const {
 
 // Tutorial Tip: 
 // keep the same pattern don't change it to make it easier
-// for other users
+// for other users/developers
 
 // Routes for doing anything on the site
 // in this case, getting all tasks, creating tasks, 

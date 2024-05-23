@@ -9,10 +9,6 @@ const { createCustomError } = require('../errors/customErrors')
 // creating middleware so we dont have to have constant try and catch blocks
 // in later projects we weill use npm packages to make it faster but doing this now for understanding
 
-// first we will wrap get all tasks just to show how it works but can do it to all routes
-
-
-
 
 
 // gets every task
